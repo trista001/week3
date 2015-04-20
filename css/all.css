@@ -1,0 +1,190 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.2em;
+}
+#wrap{
+	margin: auto;
+	padding: auto;
+	width: 800px;
+}
+
+
+
+.header{
+	margin-top: 5px;
+	width: 800px;
+	height:120px;
+	background: -webkit-gradient
+	(linear, left top, left bottom, color-stop(87%,rgba(255,255,255,0)), color-stop(100%,rgba(186,186,186,0.51)));
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0.87, rgba(255, 255, 255, 0)), to(rgba(186, 186, 186, 0.509804)));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-color: initial;
+	float:left;
+	clear:both;
+}
+.logo, .menu{
+	padding-top: 20px;
+	float:left;
+}
+.logo img{
+	padding-left: 10px;
+}
+.logo{
+	width: 360px;
+	height: 100px;
+}
+.menu{
+	width: 88px;
+	height: 100px;
+	padding-top: 5px;
+}
+.menu a{
+	text-decoration: none;
+}
+.menu img{
+	padding-top: 3px;
+	padding-right: 5px;
+}
+.menu i{
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+	color: #7D7D7D;
+    text-align: cneter;
+    padding-left: 5px;
+}
+<!--end of header-->
+
+
+.main{
+	width: 800px;
+	height: 200px;
+	margin-top: 5px;
+}
+.left{
+	width: 540px;
+	height: 200px;
+	float: left;
+}
+.left h3{
+	color: #30B0FF;
+	padding-left: 12px;
+	padding-top: 20px;
+	text-decoration: underline;
+}
+.left p{
+	font-size: 12px;
+	color: black;
+	padding-left: 12px;
+	padding-top: 10px;
+}
+.right{
+	float: left;
+	height: 180px;
+}
+.demo{
+	width: 250px;
+	height:180px;
+	padding-left: 5px;
+	float: left;
+	padding-top: 30px;
+    box-shadow:-5px 10px 15px 3px #DADADA;
+}
+.word p{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:12px;
+	text-align: center;
+}
+
+
+.footer{
+	width: 800px;
+	float: left;
+	margin-top: 40px;
+	padding-left: 10px;
+	border-top: 1px solid #ddd;
+	margin-bottom: 20px;
+ }
+.player, .computer, .toy{
+	width: 230px;
+	height: 280px;
+	float: left;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	background-color:#ddd;
+}
+.player {
+	margin: 20px 10px 10px 20px;
+
+}
+.footer img{
+	margin: 10px 30px 5px 30px;
+}
+.footer h2{
+	color: blue;
+	text-align: center;
+	margin:0 20px 10px 20px;
+}
+.footer p{
+	padding-left: 20px;
+	color: black;
+    font-size: 12px;
+}
+.computer{
+	margin: 20px 10px;
+}
+.toy{
+	margin: 20px 10px 10px 10px;
+}
